@@ -1,0 +1,103 @@
+body {
+    margin:0;
+    color:#fff;
+    font: 14px/20px "Arial",sans-serif;
+    background: rgba(34, 0, 25, 0.64);
+}
+img {
+    border-style:none;
+}
+a {
+    color:#fff;
+    outline:none;
+}
+a:hover {
+    text-decoration:none;
+}
+* {
+    outline:none;
+}
+input, textarea, select {
+    font:100% "Arial",sans-serif;
+    vertical-align:middle;
+    -webkit-appearance:none;
+}
+form, fieldset {
+    margin:0;
+    padding:0;
+    border-style:none;
+	min-width: 0;
+}
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figure,
+menu,
+dialog {
+    display: block;
+}
+ul, ol {list-style:none; margin:0; padding:0;}
+dl {margin:0 0 10px;}
+nav ul, nav ol {list-style:none; list-style-image: none; margin:0; padding:0;}
+ul li {list-style: none; list-style: none outside;}
+p {margin:0 0 10px;}
+h1 {font-size:40px; line-height:42px; margin:0 0 20px;}
+h2 {font-size:30px; line-height:32px; margin:0 0 18px;}
+h3 {font-size:24px; line-height:26px; margin:0 0 16px;}
+h4 {font-size:22px; line-height:24px; margin:0 0 14px;}
+h5 {font-size:20px; line-height:22px; margin:0 0 12px;}
+h6 {font-size:18px; line-height:20px; margin:0 0 10px;}
+a { text-decoration:none; outline:none;}
+button,
+input[type="submit"],
+input[type="file"]::-webkit-file-upload-button {
+    cursor: pointer;
+}
+textarea:-moz-placeholder {color:#fff;}
+textarea::-moz-placeholder {color:#fff;opacity:1;}
+textarea::-webkit-input-placeholder {color:#fff;}
+textarea:-ms-input-placeholder {color:#fff;}
+textarea::placeholder {color:#fff;}
+input:-moz-placeholder {color:#fff;}
+input::-moz-placeholder {color:#fff;opacity:1;}
+input::-webkit-input-placeholder {color:#fff;}
+input:-ms-input-placeholder {color:#fff;}
+input::placeholder {color:#fff;}
+/* =============================================================================
+	MAIN
+	========================================================================== */
+html,body {
+    height: 100%;
+    margin: 0;
+     min-width: 800px;
+    -webkit-text-size-adjust: none;
+}
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn-link{
+    display: inline-block;
+    height: 20px;
+    background: #000000;
+}
+
+
+
+
+
+
+
+
+/* =============================================================================
+	HasLayot
+	========================================================================== */
+.group:after {
+    display:block;
+    content:"";
+    clear:both;
+}
